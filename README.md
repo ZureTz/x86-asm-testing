@@ -1,5 +1,21 @@
-# x86-asm-testing
+# 8086-asm-testing
 
-## How to use nasm
-1. `nasm -f elf32 ex1.asm -o ex1.o`
-2. `ld -m elf_i386 ex1.o -o ex1`
+## How to run the program
+
+1.  Assemble
+
+```cmd
+.\8086\masm ex1;
+```
+
+2.  Link
+
+```cmd
+.\8086\link ex1;
+```
+
+Also you can just run:
+
+```cmd
+run.bat ex1
+```

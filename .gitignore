@@ -20,7 +20,10 @@ tempCodeRunnerFile.cc
 *.slo
 *.lo
 *.o
+
 *.obj
+*.OBJ
+
 
 # Precompiled Headers
 *.gch
@@ -45,3 +48,7 @@ tempCodeRunnerFile.cc
 *.exe
 *.out
 *.app
+*.com
+
+# Include 8086 folder to retain basic functions
+!8086/*
