@@ -2,8 +2,10 @@
 ; store the result in register dx
 ; loop must be used
 
-assume cs:codesg
 codesg segment
+  assume cs:codesg
+  
+start:
   mov ax, 0ffffh
   mov ds, ax  ; let ds to be ffffh
   mov bx, 6 ; if access memory, the offset must be in bx (base register)
@@ -21,4 +23,4 @@ multiply:
   mov ax, 4c00h
   int 21h
 codesg ends
-end
+end start
