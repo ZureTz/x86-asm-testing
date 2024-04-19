@@ -51,4 +51,4 @@ tempCodeRunnerFile.cc
 *.com
 
 # Include 8086 folder to retain basic functions
-!8086/*
+!8086/** 

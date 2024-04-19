@@ -19,3 +19,10 @@ Also you can just run:
 ```cmd
 run.bat ex1
 ```
+
+## How to use tlink
+
+```cmd
+masm ex1;
+tlink ex1,,,/x/t
+```
